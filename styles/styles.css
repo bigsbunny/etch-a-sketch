@@ -1,5 +1,10 @@
+/* Pallete used - https://colorhunt.co/palette/297f87fff7aef6d167df2e2e */
 
+body {
+  background-color: #FFF7AE;
+}
 .eas-heading {
+  color: #297F87;
   text-align: center;
   font-family: 'Viga', sans-serif;
   letter-spacing: 15px;
@@ -8,7 +13,7 @@
 .main-board {
   height: 600px;
   width: 600px;
-  border: 10px solid #FF2442;
+  border: 10px solid #DF2E2E;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -25,7 +30,7 @@
   justify-content: center;
   padding: 2%;
   padding-top: 0;
-  background-color: #FF2442;
+  background-color: #DF2E2E;
 }
 
 .board-header-item {
@@ -41,17 +46,18 @@
 .board-name {
   text-align: center;
   display: inline;
-  color: #FFE3E3;
+  color: #FFF7AE;
 }
 
 .material-icons {
-  color: #FFE3E3;
+  color: #FFF7AE;
 }
 
 .flex-container {
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-color: white;
 }
 
 .flex-item {
@@ -62,9 +68,10 @@
 
 .grid-box {
   flex: 1 1 auto;
-  border: 1px solid gray;
+  border: 1px solid #EEEEEE;
 }
 
 .footer-paragraph {
   text-align: center;
+  font-family: 'Urbanist', sans-serif;
 }
