@@ -44,6 +44,8 @@ body {
 }
 
 .board-name {
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 1px;
   text-align: center;
   display: inline;
   color: #FFF7AE;
@@ -51,8 +53,19 @@ body {
 
 .material-icons {
   color: #FFF7AE;
+  font-size: 18px;
 }
 
+.settings-icon {
+  padding: 2px;
+  border: 1px solid #FFF7AE;
+  border-radius: 100%;
+}
+
+.material-icons:hover {
+  color: #F6D167;
+  border-color: #F6D167;
+}
 .flex-container {
   display: flex;
   flex-direction: column;
