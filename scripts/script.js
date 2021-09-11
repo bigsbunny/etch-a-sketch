@@ -1,4 +1,4 @@
-let gridSize = 50;
+let gridSize = 20;
 const flexContainer = document.querySelector(".flex-container");
 
 

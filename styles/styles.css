@@ -1,24 +1,51 @@
 
 .eas-heading {
   text-align: center;
+  font-family: 'Viga', sans-serif;
+  letter-spacing: 15px;
 }
 
 .main-board {
   height: 600px;
   width: 600px;
-  border: 5px solid black;
+  border: 10px solid #FF2442;
   margin: auto;
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
 }
 
 .main-board-item {
   flex: 1 1 auto;
 }
 
-.board-name {
-  flex-grow: 0;
+.board-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  padding-top: 0;
+  background-color: #FF2442;
+}
+
+.board-header-item {
+  flex: 1;
+}
+
+.board-header-flex {
+  margin: 0;
+  padding: 0;
   text-align: center;
+}
+
+.board-name {
+  text-align: center;
+  display: inline;
+  color: #FFE3E3;
+}
+
+.material-icons {
+  color: #FFE3E3;
 }
 
 .flex-container {
@@ -35,7 +62,7 @@
 
 .grid-box {
   flex: 1 1 auto;
-  border: 1px solid black;
+  border: 1px solid gray;
 }
 
 .footer-paragraph {
