@@ -1,0 +1,43 @@
+
+.eas-heading {
+  text-align: center;
+}
+
+.main-board {
+  height: 600px;
+  width: 600px;
+  border: 5px solid black;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-board-item {
+  flex: 1 1 auto;
+}
+
+.board-name {
+  flex-grow: 0;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.flex-item {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-box {
+  flex: 1 1 auto;
+  border: 1px solid black;
+}
+
+.footer-paragraph {
+  text-align: center;
+}
