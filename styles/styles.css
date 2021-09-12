@@ -1,8 +1,55 @@
 /* Pallete used - https://colorhunt.co/palette/297f87fff7aef6d167df2e2e */
 
+/* cSS resets */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 body {
   background-color: #FFF7AE;
+  margin: 0;
 }
+
 .eas-heading {
   color: #297F87;
   text-align: center;
@@ -10,6 +57,7 @@ body {
   letter-spacing: 15px;
 }
 
+/* Etch-a-Sketch board styles */
 .main-board {
   height: 600px;
   width: 600px;
@@ -18,6 +66,7 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
+  box-shadow: 0 0 10px black;
 }
 
 .main-board-item {
@@ -84,7 +133,67 @@ body {
   border: 1px solid #EEEEEE;
 }
 
+#reset-button {
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 1px;
+  padding: 7px;
+  background-color: #FFF7AE;
+  color: #DF2E2E;
+  border: 2px;
+  border-radius: 7px;
+}
+
+#reset-button:hover {
+  background-color: #F6D167;
+}
+
+/* Settings menu styles */
+.hide {
+  display: none;
+}
+#settings-div {
+  position: absolute;
+  height: 103%;
+  width: 100%;
+  top: 0;
+  background-color: #00000099;
+}
+
+.settings-main {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  background-color: #FFF7AE;
+  top: 15%;
+  left: 35%;
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  color: #DF2E2E;
+  border: 5px solid #DF2E2E;
+  border-radius: 10px;
+}
+
+.exit-settings-button {
+  position: relative;
+  top: 150px;
+  background-color: #DF2E2E;
+  border: 0;
+  border-radius: 5px;
+  color: #FFF7AE;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+.exit-settings-button:hover {
+  background-color: #EF0909
+}
+/* Footer styles */
 .footer-paragraph {
   text-align: center;
   font-family: 'Urbanist', sans-serif;
+}
+
+.github-link {
+  text-decoration: none;
+  color: #DF2E2E;
 }

@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>E t c h - a - S k e t c h !</title>
+  <title>Etch-a-Sketch!</title>
 
   <!-- Google Material Icons & Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Urbanist&family=Viga&family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist&family=Viga&family=Roboto+Mono:wght@400&family=Architects+Daughter&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- Stylesheets -->
@@ -34,8 +34,26 @@
     <div class="flex-container main-board-item">
     </div>
   </div>
+
+  <!-- Settings div -->
+  <div id="settings-div" class="hide">
+    <div class="settings-main">
+      <h1>Sketch settings</h1>
+      <p>Current Grid size - <span class="grid-size-display"></span></p>
+      <div class="grid-size-slider">
+        <p>Grid size :</p>
+        <input id="grid-size" type="range" min="2" max="50" value="20">
+      </div>
+      <div class="color-picker-div">
+        <p>Choose color -</p>
+        <input type="color" value="#f6d167" class="color-picker">
+      </div>
+      <button class="exit-settings-button" type="button" name="button">SKETCH!</button>
+    </div>
+  </div>
+
   <footer>
-    <p class="footer-paragraph">Made with ❤️ by bigsbunny!</p>
+    <p class="footer-paragraph">Made with ❤️ by <a class="github-link" href="https://github.com/bigsbunny" target="_blank">bigsbunny!</a></p>
   </footer>
 </body>
 
