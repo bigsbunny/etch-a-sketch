@@ -4,9 +4,10 @@ Etch-a-Sketch is a website that allows you to make pixelated drawings in a grid 
 
 ![etch-a-sketch preview](assets/etch-a-sketch.png)
 
-### Things yet to be added/changed -
-- [ ] Provide a 'click' option to color pixels, instead of just hovering.
-- [ ] Change the background, and use gradients instead.
+### Assets used -
+- [Google Material Icons](https://fonts.google.com/icons)
+- Fonts: Urbanist, Viga, Roboto Mono, Architects Daughter
+- [This color pallete from Colorhunt](https://colorhunt.co/palette/297f87fff7aef6d167df2e2e)
 
 Built by - <br>
-[Bighnesh Sahoo](https://github.com/bigsbunny)
+- [Bighnesh Sahoo](https://github.com/bigsbunny)

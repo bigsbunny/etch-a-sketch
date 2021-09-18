@@ -1,7 +1,12 @@
 /* Pallete used - https://colorhunt.co/palette/297f87fff7aef6d167df2e2e */
-
 body {
   background-color: #FFF7AE;
+  background: linear-gradient(45deg,
+      rgba(255, 136, 136, 1) 0%,
+      rgba(255, 221, 168, 1) 20%,
+      rgba(249, 255, 147, 1) 40%,
+      rgba(213, 255, 181, 1) 60%,
+      rgba(179, 253, 255, 1) 80%);
   margin: 0;
 }
 
@@ -70,6 +75,7 @@ body {
   color: #F6D167;
   border-color: #F6D167;
 }
+
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -106,6 +112,7 @@ body {
 .hide {
   display: none;
 }
+
 #settings-div {
   position: absolute;
   height: 103%;
@@ -128,9 +135,14 @@ body {
   border-radius: 10px;
 }
 
+.tip-para {
+  width: 50%;
+  margin: 3% auto;
+}
+
 .exit-settings-button {
   position: relative;
-  top: 150px;
+  top: 10%;
   background-color: #DF2E2E;
   border: 0;
   border-radius: 5px;
@@ -142,6 +154,7 @@ body {
 .exit-settings-button:hover {
   background-color: #EF0909
 }
+
 /* Footer styles */
 .footer-paragraph {
   text-align: center;
